@@ -88,6 +88,7 @@ RUN printf "\n\
 " ${ENV_DOCUMENT_ROOT} ${ENV_SRC_DIRECTORY_NAME} >> /etc/httpd/conf/httpd.conf
 RUN printf "\nLoadModule rewrite_module lib/httpd/modules/mod_rewrite.so" >> /etc/httpd/conf/httpd.conf
 
+
 # setting change php.ini
 RUN sed -i -e "s|^expose_php = On|expose_php = Off|g" /etc/opt/remi/php73/php.ini
 RUN sed -i -e "s|^memory_limit = 128M|memory_limit = 256M|g" /etc/opt/remi/php73/php.ini
