@@ -1,5 +1,5 @@
 # laravel_amazonlinux2
-=======
+
 ## Introduction
 
 本リポジトリは、Dockerをベースとした、AmazonLinux2 + Laravel + vueの開発環境を構築します。
