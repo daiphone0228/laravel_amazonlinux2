@@ -1,33 +1,4 @@
 # laravel_amazonlinux2
-
-<<<<<<< HEAD
-## Get started
-
-### dockerコンテナ起動
-
-docker-compose up -d --build
-
-### dockerコンテナに入る
-
-docker exec -it laravel /bin/bash
-
-### laravelプロジェクト起動設定
-
-```shell=
-$ composer install
-$ npm install
-$ php artisan key:generate
-$ php artisan config:clear
-$ php artisan migrate
-$ php artisan db:seed
-$ npm run dev
-```
-
-## Access
-
-http://localhost:8080/
-
--> laravelのTOPページが開きます
 =======
 ## Introduction
 
@@ -204,8 +175,3 @@ bash-4.2# npm run dev
 
 http://localhost:8080/ にアクセスしてLaravelのTOPページが出てきたら成功
 
-
-
-
-
->>>>>>> dab157700644e4fe512067b1a389ad13a3d59b48
