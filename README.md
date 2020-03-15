@@ -3,7 +3,9 @@
 ## Introduction
 
 本リポジトリは、Dockerをベースとした、AmazonLinux2 + Laravel + vueの開発環境を構築します。
+
 git cloneしてきた時点で"project/"配下にあるLaravelプロジェクトは、[GitHub](https://github.com/laravel/laravel)からcloneしたものになります。
+
 ご自身のプロジェクトを利用する場合は、"project/"配下を置き換えてください。
 
 ## 構築環境
