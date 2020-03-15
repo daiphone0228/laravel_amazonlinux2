@@ -86,6 +86,8 @@ RUN printf "\n\
     Require all granted\n\
 </Directory>\n\
 " ${ENV_DOCUMENT_ROOT} ${ENV_SRC_DIRECTORY_NAME} >> /etc/httpd/conf/httpd.conf
+RUN printf "\nLoadModule rewrite_module lib/httpd/modules/mod_rewrite.so" >> /etc/httpd/conf/httpd.conf
+
 
 # setting change php.ini
 RUN sed -i -e "s|^expose_php = On|expose_php = Off|g" /etc/opt/remi/php73/php.ini
